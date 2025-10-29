@@ -1,0 +1,674 @@
+html {
+  height: 101%;
+}
+
+body {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 97%;
+  font-size: 102%\9;
+  *font-size: 78%;
+  line-height: 1.5em;
+  color: #000033;
+  margin: 0;
+  padding: 0;
+}
+
+body.contentpane {
+  background: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, div.contentheading, .componentheading {
+  padding: 0;
+  margin: 0;
+  line-height: 1em;
+  font-weight: normal;
+  font-style: normal;
+}
+h1, .componentheading {
+  font-size: 1.75em;
+}
+h2, div.contentheading {
+  font-size: 1.15em;
+  line-height: 1.25em;
+  letter-spacing: 1px;
+  margin: 1.2em 0;
+}
+h3 {
+  color: #2F5384;
+  font-size: 1.1em;
+  font-weight: normal;
+  letter-spacing: 1px;
+  margin: 0.75em 0;
+  line-height: 1.25em;
+}
+h4 {
+  font-size: 1em;
+}
+
+ul, ol {
+  padding: .75em 0 .75em 0;
+  margin: 0 0 0 35px;
+}
+
+ul.menu {
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu li {
+  list-style: none;
+  color:#000000;
+}
+
+p {
+  font-size:1em;
+  line-height: 1.35em;
+  margin: 0.5em 0;
+}
+
+address {
+  margin: .75em 0;
+  font-style: normal;
+}
+
+a:focus {
+    outline: none;
+}
+
+img {
+  border: none;
+}
+
+em {
+  font-style: italic;
+}
+strong {
+  font-weight: bold;
+}
+
+form, fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+input, button, select {
+  vertical-align: middle;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.clr {
+  clear : both;
+}
+
+.column.column1 {
+    width: 220px;
+}
+
+.column.column2 {
+    width: 220px;
+}
+
+.column.main {
+    width: 656px;
+}
+
+.column.center {
+    width: 656px;
+}
+
+.noleft .center {
+    width: 656px;
+}
+
+.noleft .column2 {
+    width: 220px;
+}
+
+.noleft .main {
+    width: 100%;
+}
+
+.noright .column.center {
+    width: 100%;
+}
+
+.flexiblemodule, .column, .logobloc {
+    float: left;
+}
+
+
+/* ---------------------------------------
+  specific to images
+-----------------------------------------*/
+
+ul.actions {
+  margin: 0;
+}
+
+ul.actions li a {
+  text-decoration: none;
+}
+.print-icon {
+  list-style: none;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  padding-left: 20px;
+  background: url(../images/system/printButton.png) left center no-repeat;
+}
+
+.email-icon {
+  list-style: none;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  padding-left: 20px;
+  background: url(../images/system/emailButton.png) left center no-repeat;
+}
+
+.edit-icon {
+  list-style: none;
+  display: inline-block;
+  height: 16px;
+  line-height: 16px;
+  padding-left: 20px;
+  background: url(../images/system/edit.png) left center no-repeat;
+}
+
+/* ---------------------------------------
+  Custom styling
+-----------------------------------------*/
+
+.container, .container-fluid {
+  margin: 0 auto;
+}
+
+.container {
+  width: 966px;
+
+}
+
+.container-fluid {
+  max-width: 966px;
+}
+
+body {
+  background: #1B3562;
+}
+
+a {
+  color: #1B3562;
+}
+
+a:hover {
+  color: #1B3562;
+}
+
+h1, div.componentheading {
+  color: #2f5384;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+}
+
+h2, div.contentheading {
+  color: #2f5384;
+  font-size: 1.15em;
+}
+
+h3 {
+  color: #2f5384;
+  font-size: 1.1em;
+}
+
+h4 {
+  font-size: 1em;
+}
+
+.button, button, input.btn {}
+
+.button:hover, button:hover, input.btn:hover {}
+
+.invalid {border: red;}
+                
+input.inputbox, .registration input, .login input, .contact input, .contact textarea,
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+  border: none;
+  border: #bebebe 1px solid;
+  color: #000000;
+  padding: 4px;
+  text-align: left;
+}
+
+input:focus, input.inputbox:focus, .registration input:focus, .login input:focus, .contact input:focus, .contact textarea:focus,
+textarea, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus {
+  border: #000000 1px solid;
+}
+
+#headerlogo > div.inner > .bannerlogodesc {
+  color: #a3a3a3;
+  text-align: center;
+  font-size: 13px;
+  font-family: Arial, sans-serif;
+}
+
+#headerlogo > div.inner {
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+#nav > div.inner {
+  background:  url(../images/nav.jpg) center center no-repeat scroll;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 0px;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+}
+
+#nav ul.menu {
+  margin: 0;
+  padding: 0 0 0 10px;
+}
+
+#nav ul.menu li {
+  margin: 0;
+  padding: 0 ;
+  float: left;
+  list-style:none;
+  white-space: nowrap;
+}
+
+#nav ul.menu > li > a, #nav ul.menu > li > span.separator {
+  display:block;
+  border-right: #000000 1px solid;
+  color: #000000;
+  margin: 0px;
+  padding: 0px 15px 0 15px;
+  text-align: center;
+  font-size: 16PX;
+  height: 40px;
+  line-height: 40px;
+}
+
+#nav ul.menu > li:hover > a {
+  background:  url(../images/nav2.jpg) center center no-repeat scroll;
+  margin: 0px;
+  font-size: 16px;
+  font-weight:bold;
+}
+
+#nav ul.menu > li.active > a {
+  background:  url(../images/nav.jpg) center center no-repeat scroll;
+  margin: 0px;
+  font-size: 16px;
+}
+
+#nav ul.menu li li a, #nav ul.menu li li span.separator {
+  display:block;
+  background:  url(../images/nav.jpg) center center no-repeat scroll;
+  border-left: #000000 1px solid;
+  border-right: #000000 1px solid;
+  margin: 0px;
+  padding: 0px 15px 0 15px;
+  text-align: left;
+  font-size: 16px;
+  height: 40px;
+  line-height: 40px;
+  color:#000000;
+}
+
+#nav ul.menu li li:hover > a {
+  background:  url(../images/nav2.jpg) center center no-repeat scroll;
+  font-weight:bold;
+  color: #000000;
+  margin: 0px;
+  font-size: 16px;
+}
+
+#nav ul.menu li li.active > a {
+  background:  url(../images/nav.jpg) center center no-repeat scroll;
+  color: #000000;
+  margin: 0px;
+  font-size: 16px;
+}
+
+#nav ul.menu li li li a, #nav ul.menu li li li span.separator {border-left:0;}
+
+/* code pour menu normal */
+#nav ul.menu li ul, #nav ul.menu li:hover ul ul, #nav ul.menu li:hover ul ul ul {
+  position: absolute;
+  left: -999em;
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 260px;
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+  color: #000000;
+}
+
+#nav ul.menu li:hover ul ul, #nav ul.menu li:hover li:hover ul ul, #nav ul.menu li:hover li:hover li:hover ul ul,
+#nav ul.menu li.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul ul, #nav ul.menu li.sfhover ul.sfhover ul.sfhover ul ul {
+  left: -999em;
+}
+
+#nav ul.menu li:hover > ul, #nav ul.menu li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover > ul, #nav ul.menu li:hover ul li:hover ul li:hover ul li:hover > ul,
+#nav ul.menu li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul, #nav ul.menu li.sfhover ul li.sfhover ul li.sfhover ul li.sfhover ul {
+  left: auto;
+}
+
+#nav ul.menu li:hover ul li:hover ul {
+  height: 40px;
+  width: 260px;
+  margin-top: -40px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 260px;
+  padding: 0px;
+  height: 40px;
+}
+
+/* fin code normal */
+
+#nav ul.menu.maximenuCK li ul, #nav ul.menu.maximenuCK li:hover ul ul, #nav ul.menu.maximenuCK li:hover ul ul ul,
+#nav ul.menu.maximenuck li ul, #nav ul.menu.maximenuck li:hover ul ul, #nav ul.menu.maximenuck li:hover ul ul ul {
+  position: static !important;
+  left: auto !important;
+  background: transparent !important;
+  border-radius: 0 !important;
+    border: none !important;
+  -moz-border-radius: 0 !important;
+  -o-border-radius:  0 !important;
+  -webkit-border-radius: 0 !important;
+  width: 100% !important;
+  box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+}
+
+#nav ul.menu.maximenuCK li ul ul,
+#nav ul.menu.maximenuck li ul ul {
+  margin: 0 !important;
+}
+
+#nav li div.floatCK,
+#nav li div.floatck {
+  height: 40px;
+  width: 260px;
+  margin: 0px;
+  padding: 0px;
+  height: 40px;
+}
+
+#nav ul.menu li ul.maximenuCK2,
+#nav ul.menu li ul.maximenuck2 {
+    margin: 0;
+    padding: 0;
+}
+
+#nav ul.menu li div.maximenuCK2,
+#nav ul.menu li div.maximenuck2 {
+    float: left;
+    width: 100%;
+}
+
+#nav ul li.maximenuCK div.floatCK div.floatCK,
+#nav ul li.maximenuck div.floatck div.floatck {
+  height: 40px;
+  width: 260px;
+  margin-top: -40px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 260px;
+  padding: 0px;
+  height: 40px;
+}
+
+#nav span.descCK,
+#nav span.descck {
+    display: block;
+    line-height: 10px;
+}
+
+#nav ul.menu li li {
+    float: none;
+    display: block;
+}
+
+#maincontent > div.inner {
+  background:  url(../images/page.jpg) center center repeat-y scroll;
+  padding: 20px 36px 10px 36px;
+}
+
+#left > div.inner {
+  margin: 0px;
+  margin-right: 20px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  width:240px;
+}
+
+#left div.moduletable, #left div.module,
+#left div.moduletable_menu, #left div.module_menu {
+  margin-bottom: 15px;
+}
+
+#center > div.inner {
+  padding: 0px;
+  padding-top: 0px;
+  padding-right: 10px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
+
+#right > div.inner {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 42px;
+  width: 220px;
+}
+
+#right div.moduletable, #right div.module,
+#right div.moduletable_menu, #right div.module_menu {
+  margin-bottom: 15px;
+}
+
+#footer > div.inner {
+  background:  url(../images/footer.jpg) center bottom no-repeat scroll;
+  padding-top: 15px;
+  padding-right: 46px;
+  padding-bottom: 20px;
+  padding-left: 46px;
+  height: 220px;
+}
+
+img.right {
+  float:right;
+  margin-left:20px;
+  margin-bottom:2px;
+}
+
+img.left {
+  float:left;
+  margin-right:20px;
+  margin-bottom:2px;
+}
+
+img.rightb {
+  float:right;
+  margin-left:20px;
+  margin-bottom:2px;
+  border:2px solid #000033;
+}
+
+img.leftb {
+  float:left;
+  margin-right:20px;
+  margin-bottom:2px;
+  border:2px solid #000033;
+}
+
+img.cpicb {border:2px solid #000033;}
+
+/* Centered Tables */
+table.tcenter {margin-left:auto; margin-right:auto;}
+table p {
+    font-size: 1em;
+    line-height: 1.5em;
+    margin: 1.2em 0;
+}
+table.mcenter {margin-left:auto; margin-right:auto;}
+table.mcenter td {padding:8px 8px 8px 8px;border:1px solid #1B3562;}
+
+/* Standard Bullet Lists */
+ul.blist {margin-left:18px;}
+ul.blist li {list-style: disc outside;color:#000;line-height: 1.4em;}
+
+/* Breezingforms Label Field Width */
+
+.bfQuickMode p input[type='text'], .bfQuickMode p textarea, .bfQuickMode p select {
+width: 55%;
+}
+.bfQuickMode .bfLabelLeft label {
+width: 25%;
+}
+
+div.contim {background:url('../images/contact.png') right top no-repeat;margin-right: 110px;}
+
+div#applications label {
+width: 94%;
+}
+
+div#productinterest label {
+width: 94%;
+}
+
+textarea#ff_elem49 {width:480px;}
+
+/* Contact Form Image */
+
+
+
+td {padding-left:7px;padding-right:7px;}
+
+table.twbord {
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+table.twbord td {padding:2px 7px 2px 7px;border: 1px solid black;}
+
+ol {list-style-type:decimal;}
+li {margin-left:10px;}
+
+div.moduletable-lslide {border-top: 1px solid #1b3562;}
+
+/* Left Feature Links */
+div.moduletable-ltestf > div.custom-ltestf a, a:link , a:visited {
+    color: #000033;
+    text-decoration: underline;
+    padding-bottom:3px;
+}
+div.moduletable-ltestf > div.custom-ltestf p {
+  margin:0 !important;
+}
+div.moduletable-ltestf > div.custom-ltestf img {
+  margin-top:6px !important;
+}
+div#hrfdiv {float:right;width:240px;}
+div#hrfdiv div.moduletable-ltestf {float:right;}
+div#hrfdiv table.moduletable-ltestf {float:right;}
+
+div#articlepage > a, a:link {color:#2F5384;text-decoration: underline;}
+
+/* div.fleftm {margin-left: 15px;} */
+
+div#nav.clr ul.menu {margin-left: 6px;}
+
+div.vmenufix {position:relative;z-index:1;margin-left:42px;}
+
+/* Language Feature */
+div.langm.inside {margin:0;}
+div.langm {margin:0;padding:0;width:200px;height:135px;float:left;}
+div.langm p {margin:0 0 14px 0;}
+
+div#applications {margin-top: 20px;}
+div#applications p {margin: 0;}
+
+div#productinterest {margin-top: 20px;}
+div#productinterest p {margin: 0;}
+
+div.bfsdcus {margin-bottom: 5px;}
+
+form#login.logout_form {width:470px;margin-left:10px;}
+form#login.logout_form img {margin-left:10px;}
+
+form#login.login_form {width:470px;margin-left:10px;}
+form#login.login_form img {margin-left:10px;}
+
+div.moduletable-pmenu {
+  float:right;
+  text-align:left;
+  color:#1b3562;
+  font-weight:bold;
+  margin:0 0 8px 8px;
+}
+  
+div.moduletable-pmenu h3 {font-size: 1.15em;font-weight:normal;letter-spacing:1px;margin-bottom:4px;text-align:center;}
+
+div.moduletable-pmenu ul.nav li a {text-decoration:underline;}
+  
+div.moduletable-pmenu ul {text-align: left;line-height: 1.8em;}
+
+/* Lower Menu Class CSS Suffix */
+div.moduletable-lower ul.nav {text-align:center;margin-bottom:20px;}
+div.moduletable-lower ul.nav li {display:inline;list-style-type:none; padding: 0px 15px 0px 15px;font-weight:bold;font-size:14px;line-height:25px;height:30px;}
+div.moduletable-lower ul.nav a {display:inline;} 
+div.moduletable-lower ul.nav a:link, a:visited {color:#000033;text-decoration: none;}
+div.moduletable-lower ul.nav a:hover {text-decoration: underline;color: #000033;}
+div.moduletable-lower ul.nav ol, ul, li {margin-top:0;}
+
+div#sp108.slideshow {padding-top:12px;border-top:#000 1px solid;}
+
+div#langf {
+top:130px;
+left:306px;
+position:relative;
+z-index:9999;
+margin-top:-24px;
+}
+
+div#langf img {margin-right:12px;}
+
+
+textarea#ff_elem54.ff_elem {
+    width: 480px;
+}
+
+/* Contact Form Image */
+
+p.bfElemWrap input label {width:25%;}
+p.bfElemWrap input input {width:55%;}
+
+#bfSubmitButton {margin-right:190px;}
+
+div.page-header h1 {display:none;}
+
+div.ie8fix {width:300px\9;margin-left:200px\9;}
